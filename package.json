@@ -1,0 +1,13 @@
+{
+  "name": "ai-risk-daily",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "NODE_USE_ENV_PROXY=1 tsx scripts/build.mts"
+  },
+  "devDependencies": {
+    "tsx": "^4.23.15",
+    "typescript": "^5",
+    "@types/node": "^24"
+  }
+}

@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>AI Infrastructure Risk — the daily read</title>
+<style>
+  :root{--bg:#0a0c10;--panel:#12151c;--line:#222834;--soft:#1a1f28;
+    --ink:#e7eaf0;--dim:#9aa3b5;--faint:#6b7385;
+    --good:#34d399;--warn:#fbbf24;--bad:#f87171;--info:#60a5fa}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:13.5px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1000px;margin:0 auto;padding:22px 16px 60px}
+  h1{font-size:19px;margin:0 0 4px;letter-spacing:-.2px}
+  .verdict{font-size:14px;color:var(--dim);margin:0 0 6px}
+  .meta{font-size:11px;color:var(--faint);margin:0}
+  .panel{background:var(--panel);border:1px solid var(--line);border-radius:6px;margin-top:14px}
+  .head{padding:9px 14px;border-bottom:1px solid var(--soft);font-size:10.5px;
+    letter-spacing:.09em;text-transform:uppercase;color:var(--faint);font-weight:500}
+  .row{padding:11px 14px;border-bottom:1px solid var(--soft);display:flex;gap:11px}
+  .row:last-child{border-bottom:0}
+  .dot{width:9px;height:9px;border-radius:50%;flex:0 0 auto;margin-top:5px}
+  .grow{flex:1;min-width:0}
+  .top{display:flex;justify-content:space-between;gap:12px;align-items:baseline}
+  .name{font-size:12.5px}
+  .val{font-variant-numeric:tabular-nums;font-size:14px;font-weight:600;white-space:nowrap}
+  .unit{font-size:10px;color:var(--faint);margin-left:3px;font-weight:400}
+  .say{font-size:12px;color:var(--dim);margin:3px 0 0}
+  .trig{font-size:11px;color:var(--faint);margin:2px 0 0}
+  .prov{font-size:10px;color:var(--faint);margin:5px 0 0;font-variant-numeric:tabular-nums}
+  .grid{display:grid;grid-template-columns:1fr;gap:1px;background:var(--soft)}
+  @media(min-width:760px){.grid{grid-template-columns:1fr 1fr}}
+  .cell{background:var(--panel);padding:11px 14px}
+  .cell h3{font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;
+    color:var(--faint);font-weight:500;margin:0 0 7px}
+  .cell ul{margin:0;padding:0;list-style:none}
+  .cell li{margin:0 0 7px;font-size:12px;line-height:1.4}
+  .cell a{color:var(--dim);text-decoration:none}
+  .cell a:hover{color:var(--info);text-decoration:underline}
+  .when{color:var(--faint);font-size:10px;margin-left:5px;font-variant-numeric:tabular-nums}
+  footer{margin-top:16px;font-size:10.5px;color:var(--faint);line-height:1.6}
+</style>
+</head>
+<body><div class="wrap">
+
+<h1>AI Infrastructure Risk — the daily read</h1>
+<p class="verdict">Leading indicators are calm. No financing or pricing stress visible.</p>
+<p class="meta">9 measured indicators ·
+  <span style="color:var(--bad)">0 stress</span> ·
+  <span style="color:var(--warn)">2 watch</span> ·
+  <span style="color:var(--good)">7 calm</span> ·
+  26 headlines · generated 2026-09-24 09:30 UTC</p>
+
+<div class="panel">
+  <div class="head">Leading indicators — what the numbers say</div>
+  <div class="row">
+    <div class="dot" style="background:var(--warn)"></div>
+    <div class="grow">
+      <div class="top">
+        <span class="name">Deep credit spread (CCC and lower)</span>
+        <span class="val" style="color:var(--warn)">1,075<span class="unit">bps</span></span>
+      </div>
+      <p class="say">The lowest credit tier is repricing. Private credit usually follows.</p>
+      <p class="trig">Above 1100bps has historically preceded private credit withdrawal.</p>
+      <p class="prov">2026-09-22 · 2d old · model_inference</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="dot" style="background:var(--warn)"></div>
+    <div class="grow">
+      <div class="top">
+        <span class="name">Hyperscaler CapEx growth</span>
+        <span class="val" style="color:var(--warn)">75<span class="unit">% YoY</span></span>
+      </div>
+      <p class="say">Capex growth is running hot relative to any plausible revenue ramp.</p>
+      <p class="trig">Sustained growth above 80% with flat revenue is the classic overbuild signature.</p>
+      <p class="prov">2025-12-31 · 267d old · reported</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="dot" style="background:var(--good)"></div>
+    <div class="grow">
+      <div class="top">
+        <span class="name">US high-yield credit spread</span>
+        <span class="val" style="color:var(--good)">268<span class="unit">bps</span></span>
+      </div>
+      <p class="say">High-yield credit is open and cheap. Leveraged buildout can refinance.</p>
+      <p class="trig">Above 500bps is where leveraged infrastructure financing tightens materially.</p>
+      <p class="prov">2026-09-22 · 2d old · reported</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="dot" style="background:var(--good)"></div>
+    <div class="grow">
+      <div class="top">
+        <span class="name">US investment-grade spread</span>
+        <span class="val" style="color:var(--good)">77<span class="unit">bps</span></span>
+      </div>
+      <p class="say">Investment-grade issuance is wide open. Hyperscalers fund at will.</p>
+      <p class="trig">Above 175bps signals stress reaching the strongest borrowers.</p>
+      <p class="prov">2026-09-22 · 2d old · reported</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="dot" style="background:var(--good)"></div>
+    <div class="grow">
+      <div class="top">
+        <span class="name">CapEx as share of operating cash flow</span>
+        <span class="val" style="color:var(--good)">39<span class="unit">%</span></span>
+      </div>
+      <p class="say">Capex is comfortably funded from operating cash flow.</p>
+      <p class="trig">Above 90% means the buildout depends on debt or equity, not cash generation.</p>
+      <p class="prov">2025-12-31 · 267d old · reported</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="dot" style="background:var(--good)"></div>
+    <div class="grow">
+      <div class="top">
+        <span class="name">Construction input costs</span>
+        <span class="val" style="color:var(--good)">10<span class="unit">% YoY</span></span>
+      </div>
+      <p class="say">Construction input costs broadly stable.</p>
+      <p class="trig">Above 20% YoY erodes returns on capacity already committed.</p>
+      <p class="prov">2026-08-01 · 54d old · model_inference</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="dot" style="background:var(--good)"></div>
+    <div class="grow">
+      <div class="top">
+        <span class="name">Industrial power prices</span>
+        <span class="val" style="color:var(--good)">2.71<span class="unit">% YoY</span></span>
+      </div>
+      <p class="say">Power costs stable. Operating margin protected.</p>
+      <p class="trig">Above 20% YoY without pass-through is a direct margin hit.</p>
+      <p class="prov">2026-08-01 · 54d old · model_inference</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="dot" style="background:var(--good)"></div>
+    <div class="grow">
+      <div class="top">
+        <span class="name">AI infrastructure equities, drawdown from peak</span>
+        <span class="val" style="color:var(--good)">1.51<span class="unit">%</span></span>
+      </div>
+      <p class="say">AI infrastructure equities near highs. Capital markets remain receptive.</p>
+      <p class="trig">Beyond 35% closes the equity window for capital-hungry developers.</p>
+      <p class="prov">2026-09-23 · 1d old · reported</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="dot" style="background:var(--good)"></div>
+    <div class="grow">
+      <div class="top">
+        <span class="name">Sector re-rating, 90 sessions</span>
+        <span class="val" style="color:var(--good)">7.12<span class="unit">%</span></span>
+      </div>
+      <p class="say">The sector is holding or expanding its rating.</p>
+      <p class="trig">A fall beyond 30% over a quarter signals a change in how the sector is valued.</p>
+      <p class="prov">2026-09-23 · 1d old · model_inference</p>
+    </div>
+  </div>
+</div>
+
+<div class="panel">
+  <div class="head">What is being reported — last 4 days</div>
+  <div class="grid">
+  <div class="cell"><h3>Cancellations and delays</h3><ul>
+      <li><a href="https://news.google.com/rss/articles/CBMi3gFBVV95cUxQMkNsVVpoZGQzOGYxdGFLZmVjSjdFc3RwcTlQVWoteGtib09Oa1VvajlybGZDOGRmVHBMeDlSelA3TVZKV2VNYi05NlVZU083eldXM2djaGVjR2NJd040RUlOOU9mREJ1dExPVXJoNnNyWEUtTVFjS3llTG5SeWd0VVk3WTBMX1l4SS1pMmZET09ScGJlTFFvUW14SDBQN0t5bzl3MzZhTVNhb005NVpCVnZubVE5dVVLNkVCOXd0cFg1SURDcDJtUjN3ZnNkTkxVVl9OM0h1dmFETGoyZ0E?oc=5" target="_blank" rel="noopener">Judge cancels Greenfield Road data center zoning hearing - LancasterOnline</a><span class="when">2026-09-22</span></li>
+    </ul></div>
+  <div class="cell"><h3>Power and grid</h3><ul>
+      <li><a href="https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUnAzaXhOY25IZnFZQjFjZDNIRGFZZmJPNXBzWFU4MTlvV0s1NnR1blFXQ2V2SFZSYVdySXNBdGlUZl9hd0dicnZtRS12VzVHM1lHNHV3clZFVUdVV3N3R2hQM3lzT3JYanNnTEk0aUNSM2d0eFBJbi0wNGdkc014TUtnZHo4Y1ZYTlZSRmxNREd5V1NaTzloaDhZWjdHYUY0LWQ5bFNvYXhnVlFLd0tfUkNrZ1JDNVJ1X2twRnZBVFppVWc?oc=5" target="_blank" rel="noopener">Australia’s data center guidelines lay the platform for new good grid citizens - Data Center Dynamics</a><span class="when">2026-09-24</span></li>
+      <li><a href="https://news.google.com/rss/articles/CBMixgFBVV95cUxNa3JhUUhsWjhCV3o4Y1B3WDRFU1h5TlpISTNmNWo1UjdsYmFKVFpaVUpTV0NidEVQYXVEYTh5Y0RrSVlHS3Q2YUMxNnlzcWNRVWt6clhGWDdwSnBEUlZLQlFrb055RW5fbXVYT1JWMm9qNHhVVHlPUmxCTTBXYXlOYXB0MG5OelhIaE5hemZZT2xPdkdUVzdWMkxRdmN4LW9yalVienIyRWU4cEwwcFMxcnNSTi14QTFnY1hIYzhjdlpWcUlwVEE?oc=5" target="_blank" rel="noopener">Making data centres energy efficient thanks to a new EU rating system - European Commission</a><span class="when">2026-09-21</span></li>
+      <li><a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxOb0UxRGMyQ3VLZ1hCY2U3dVVzZnYyX1FZSGJ6OElGOFZ3amc1NnY2Z3Fhb2NIcUp4UFNQNTBQZ3RPa2RiaGEtYWROcHpadFpCV244Nng2VDZuOTBMZDNwdHR3ajl4RXhSSEFjSUZQMVlFd25GSXNZWHZxaVpJYXN0VFJSYUtwcWpOc1huZENJSTRjTlJtTUN3RXh4WFgxRkhOZnBLNVFwSHc?oc=5" target="_blank" rel="noopener">All the latest updates on AI data centers - The Verge</a><span class="when">2026-09-22</span></li>
+      <li><a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxNR01YaGhaSDQ5dFBocnZLVFFHeWFPc3g3Y3J3TlFkQ3FBVkdQNjFUV3RwSXdrdnZMVlZjRnZRSU1IcktXYXFEWm1LUHFNMmVSUU0xNWdJVVBKTXJCYzZOazhjbmN1OFVhQUxHYmFBNVphTGNfTjZFQmk1TWEyREI4VS1fYm93SVBaQVFPVGMwNA?oc=5" target="_blank" rel="noopener">EU's new data center rating has a green certificate loophole - IO+</a><span class="when">2026-09-23</span></li>
+      <li><a href="https://news.google.com/rss/articles/CBMisAFBVV95cUxPV0w5dy1hai1zVUVKZFQxV3dDUVNwMGE1TWgxT3RrOGcxajlraXdBc19HOE9TWHdSOG1ZR3BJT0RndGhudDFEeHM2T24zWTg3VHRxaUxHbktHZlFaSlN4RTNaS0YwTzAyM3p3RDdEWTdCRnZjaTJ4dWJBRkRpYjBRbzRoNzlJUVlDSEw3WGtlbE9iY3l5MG1LeFFRdVQ5ak1ER3I5NWZHREJ2VjNPY1I2eg?oc=5" target="_blank" rel="noopener">Data Centers Need Power. Unlock The Batteries In Our Driveways. - Forbes</a><span class="when">2026-09-22</span></li>
+      <li><a href="https://news.google.com/rss/articles/CBMihgFBVV95cUxQMldyQ3ZieWE5TG01NkxsSmxDdkJBWEpLT2g3QkY1SzlvWks3cHR1OGRtb2JMZ29PMUhDS0VkOEpxdG5yX08wbWhfOFZYNUNxZHdPM0w5Z09MS2cxZmZEbW9xc0FWYXppVmhLM0JBSmFkNUdqR3RtX08xdHlycUFEYlowdjlvZw?oc=5" target="_blank" rel="noopener">EU proposes rating system for data center energy and water use - W.Media</a><span class="when">2026-09-22</span></li>
+    </ul></div>
+  <div class="cell"><h3>Financing and debt</h3><ul>
+      <li><a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE5jZnVuMk1mekYyYlB6b1pabUU1N2JFMW1wUkhRMkxtamJHNHozVHBZWWptY1BObm9XSk1Wc2FEWTVtVGNjRGlvU0E0cEdFSndsekk3YkYtVnRNQjg1R1o0SXRHLUFwQXVn0gFoQVVfeXFMTmNmdW4yTWZ6RjJiUHpvWlptRTU3YkUxbXBSSFEyTG1qYkc0ejNUcFlZam1jUE5ub1dKTVZzYURZNW1UY2NEaW9TQTRwR0VKd2x6STdiRi1WdE1CODVHWjRJdEctQXBBdWc?oc=5" target="_blank" rel="noopener">Bird.com Secures $450M to Expand Agentic AI Infrastructure - Ventureburn</a><span class="when">2026-09-23</span></li>
+      <li><a href="https://news.google.com/rss/articles/CBMizAFBVV95cUxNSGxpTXEtUjNjVTJEVWV5WmRWUDZtanRLSGl6dm4yaHB0a04xd1JPTE1zNGE3QTFhb2x0a2R4MERmR2NkZy1CQTZWeW9oUW5meWN2VVhRVkdpamxRY0xoZFRmMkoxWi1rZXZmLUd3S1Y4QzUxUDhQYk9RVVVoYW9NNFhScFVJUkVJT3I1d2ZGamk3RnU5NDBORm45dElNS2pRV2RlTlB5RDhRcUpYNXhXbmw2TTVXXzQ0bHpLYktzbXJtako4N1lCYlFQbVM?oc=5" target="_blank" rel="noopener">Bird Secures $450 Million and Extends Communications Infrastructure to AI Agents - PYMNTS.com</a><span class="when">2026-09-23</span></li>
+      <li><a href="https://news.google.com/rss/articles/CBMidkFVX3lxTFAwQ1dWeDZUZ1pIR3I3N0NPQXl6akFpcTNnQ2JpWnJrYTVUX1FYZTFIZk1YS29QTnRILVlMc0d2Q3Rrei02alczNVRVVVR0RkNVeGd0ZDZqQnZiMVRURkdTcExFSHFkMG44aXNHWUlTZEpqbC1HZ3c?oc=5" target="_blank" rel="noopener">JPMorgan CEO: AI Infrastructure Spending to Approach $1 Trillion Next Year, Debt Financing Pressures Mounting - finance.biggo.com</a><span class="when">2026-09-22</span></li>
+      <li><a href="https://news.google.com/rss/articles/CBMi3gFBVV95cUxPUV85bEY3RzZSWXNXeUJkcmpHZjhveTc4VEJBbW84UWxkWDF1RW9PYzNJdVNnX0ViN1Z3cXUxdEZNNU9IUVU3M3VMNmc4NFVDSFVsYnFCZlh5VWxFTEJMNWE0OEJGNHZFOFdGZUJtbkpJd0s3QWszbnpoOHhwczZKdUUtMGktcTBVWFVxOVpUekJPRUhoVDN0TzF3YWhUWFNEb3h3eGJFT201NF9Zd2FvZFJhdTV6RC1GRHE0cU1DY1R2cUpzMkd1ci1kYzl6OEQ3dmE3NzJCOHo2OFgtb3c?oc=5" target="_blank" rel="noopener">Bird.com secures $450m financing as it launches communications infrastructure for AI agents - PR Newswire</a><span class="when">2026-09-23</span></li>
+      <li><a href="https://news.google.com/rss/articles/CBMiY0FVX3lxTFA2QXdxN1hocGREVzRnUFE2SEJtZmpBMVBBZG5kNWVXT25yckhrS2NmbGlBcjIxbENtd0tTUnk1THNLQjNHU1dOTjJHX2pnMHpGcnpxMkt2c1dJdVpMbVBfa0NRc9IBY0FVX3lxTFA2QXdxN1hocGREVzRnUFE2SEJtZmpBMVBBZG5kNWVXT25yckhrS2NmbGlBcjIxbENtd0tTUnk1THNLQjNHU1dOTjJHX2pnMHpGcnpxMkt2c1dJdVpMbVBfa0NRcw?oc=5" target="_blank" rel="noopener">The &quot;debt black hole&quot; behind the AI boom: $1.2 trillion external financing may be needed in the next five years - Bitget</a><span class="when">2026-09-21</span></li>
+    </ul></div>
+  <div class="cell"><h3>GPU market</h3><ul>
+      <li><a href="https://news.google.com/rss/articles/CBMihwFBVV95cUxPclFodUpWcFhfNTZobDhrVll4Y0kwMDdXMUdxV29FazNzSGpET1k2MlFNaVRZek03SnM3WWxsUHJiWTNsdEFGWlNPOVdUOE5xRXlSNXU2S2hkR21ZT1BSQ0RaWXZ4NUI4OVlGUFdkMUFNeXJGd0NsM0dEVVFXYTBibEpjV2g3Nmc?oc=5" target="_blank" rel="noopener">CME’s Nvidia GPU Futures Hit A Regulatory Speed Bump - Finimize</a><span class="when">2026-09-23</span></li>
+      <li><a href="https://news.google.com/rss/articles/CBMidkFVX3lxTE4zbERoaWhHTHpjWjNnMXd5OGpsdm56VGZvQnFZVTIwTHpnZWdvMUk3Yi1QWmowZFUyWUE0OGlFb0pLQU5NTmNON0ZacXVsQzNtcGhHd0dsNWZfQmRyTGR4eXZ4eXNtUnVvV0hVSVFJT3RNcEF2ZHc?oc=5" target="_blank" rel="noopener">CFTC Delays Nvidia GPU Futures Launch, Extends Review by 45 Days - finance.biggo.com</a><span class="when">2026-09-23</span></li>
+      <li><a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSFMwTWJtYXY0TWNxU25QenNOVFhpYmhDQkNnZVJwR01tbTQtdGNHSW45VkRyUEdlNkRQLTR0V29mMGRVYmJCX3JWci1MejQ1ZVhFWkQ0aE9YUi1YRzRMZ3h0WnctZWxsUEZpZWh0MUFmNEQ3ZDhaekVyYTJrVWJHZGxpREE4UXRI?oc=5" target="_blank" rel="noopener">Wall Street’s GPU Futures Push Stalls at the CFTC - The Information</a><span class="when">2026-09-22</span></li>
+      <li><a href="https://news.google.com/rss/articles/CBMi6AFBVV95cUxOZnN4OV9haWo1LWJ6OWtTRjBHa25XZ1B6bmlvLUpnbDBHTWVVaTlOdUNyd2cwb1U3Y1FFaExDVVZYRDJlQVBLLTB3XzRkMHk3NW9xQmxzcXVIZWdPSnhhVmF6OVBBcWpKR2VmRkFmV2h4TTFWUHI5RXpXQXpPc1dMeGQxbmp0dDV0NXl2aUotVnZsbW9KVDlIOXpfcjROM3pWUThuZjBJVm4yN0p0WTNoWi1Lc0dibXItQ2ZwQndfR2R3THVhOHpMWkJNQWNaYUJhd0pBZW5pYUs1dGdncTFZQUZoeUc5dFMx?oc=5" target="_blank" rel="noopener">Rothschild Redburn Downgrades Nebius, CoreWeave to Sell on Lower GPU Prices - 24/7 Wall St.</a><span class="when">2026-09-21</span></li>
+      <li><a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxQdFNCWjFmMGdnaHBOZjNMcS1kVy1BMkN5Qmh2NWtfSVIzNkRWcDZYMDZkdVlLczd0dk05NTRETnRzaWtjZkFQci1hczdydVo1dmJwR3J2ZVFHbmIyaFIxMmZZb2FWVE15eURmZV9HRWo4ZjNKdm9TNk5LYk9WQTlHX0xmYTROTDktcVhQUnlXUU5rVnVzcmxGLVRR?oc=5" target="_blank" rel="noopener">H100 Rental Prices Jump 22% in a Month as GPU Shortage Hits Firms and Labs - Seoul Economic Daily</a><span class="when">2026-09-22</span></li>
+      <li><a href="https://news.google.com/rss/articles/CBMiugFBVV95cUxNNjlBRl9yQ1hhV3BGa2xaVnVfNmI4aUdHdkNoNXJHSlVyT3E2eXh3VlJwSXpmY0lTT3NodTdIUDR0eHliU1dCT2g5YXM1a3VKbnc4SjNKN01VcVFuWlIzOVhCQU5tYnRYV0ctNHZrMlMzb1pnNl9KNjJ2OHFnTzNjc1hiRXMwZlIwbWRrM3czaUZOMlZQazViLWhYOFM0cXlTNnlrX1FyOEhHODd4X21ITjNvUE5UM1hteWc?oc=5" target="_blank" rel="noopener">NVIDIA GPU Futures Face Regulatory Delays Amid Growing AI Infras - GuruFocus</a><span class="when">2026-09-23</span></li>
+    </ul></div>
+  <div class="cell"><h3>Lab funding</h3><ul>
+      <li><a href="https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdy1OV0V3N1E1aTZfUDlxckxySDQ3U0Z4SzZRWWN4cTUyVDFubWd4bzFOOXpvbmdFU0treHFMbTF0NDh2Ymk2YWtLYnJmc1BOOHotRFNEY0VMSHB5RXVpQ25OZm9iZ0VnQXYxQXJnNFNINWROQlpOSmRkd3I3bm9MVHdWV0YybzZ3cERXMTNrYndEUUFTdzdfYjhxcG5oczFqU2czay1iUUtpQUY4LV94OGZBX1FiSkM4WlQtTlhwUlRoQQ?oc=5" target="_blank" rel="noopener">OpenAI and Anthropic Reportedly Seeking 20-30MW Data Centre Deployments in UK and Nordics - konsulteer.com</a><span class="when">2026-09-24</span></li>
+      <li><a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxNM0IzX2J3b3hPdGhHbUhlYjFpYnc0Q19ud0k3eGFndVJtY3FvQ09KaGVDcGVzMWoyRUZEOHpua3ppZ3lWT2lZVG9nV2NnYzZMNm9KQ2tpdEFFbFBLelgxVXU5eWR5LWNuSzVsdjltVXRhUWFIbzVmNHp6OHJEV1U3dmkzZVF6bERFa1RGVzltSQ?oc=5" target="_blank" rel="noopener">OpenAI, Anthropic, Google and xAI sued over calls to slow AI development - MediaNama</a><span class="when">2026-09-21</span></li>
+    </ul></div>
+  <div class="cell"><h3>Hyperscaler capex</h3><ul>
+      <li><a href="https://news.google.com/rss/articles/CBMidkFVX3lxTE5zblBTSTVoU0lnQXB5U0tCQUR2X3pNMlRaU0FnUlQ5N1Bxa1Vfc2NrM2xOVG52dG9YYUhoNW92U1djVENIYmxSZ25ZNXdEWVBIalRGZ0JlRVhoWVVtbTlaa3VPZ2I3RGRPS1NtLVRMbU5MdVZoVUE?oc=5" target="_blank" rel="noopener">AI Data Center Expansion Hits Roadblocks as Hyperscaler Cash Flow May Need to Triple - finance.biggo.com</a><span class="when">2026-09-23</span></li>
+      <li><a href="https://news.google.com/rss/articles/CBMixAFBVV95cUxQcE4tSThKX3F3ZFd3dTluZGNTNE5PbGhzcDdfVzdQWktJUjhHMnhYMHJ3aDJxdWxESzJ6eXZQOWNyRGJYZzB0VHpvSWRaS2dhZUVUWFUxT0ltSFJQQWM1N3VBSnBSRC11T0pIOTEyYWxtNHlEdDhuaVhId1FDXzc1ZFhxYWFVa2tySGl4N3JTeWNtU193czVyOG5jLXVPay1DX3ZxbERtOUF3SF9YWkg1S3NSNU9DbThRZVloVmNpYWU0NC1h0gHKAUFVX3lxTE4xVk0xS21STy1HMTA4bzJkS0stM0hiU3N4X3liV0c5eG5hcnFjUVQ0TGtXaG5pWDExeER6UUpqaHVhMlUtYzlkdTY0QXdtZGtBVHdPMUdpMUJwNTI0ek5CYjNKSGlvaHNkTmtKblU2YWx0UG8wUjFYU3haX1JPRkFxRWI3TmFEMGpKT1pnQlNDOGZ6aDh1cmhycjZtSnM0cEoxZGM0VloyRGNTTjBLeHJ4SGpWS0FBc1JKSmVBLThLVi1QY0tSU0lYM3c?oc=5" target="_blank" rel="noopener">Amazon (AMZN) Leads Big Tech Push Into Record AI And Data Center Spending - simplywall.st</a><span class="when">2026-09-24</span></li>
+      <li><a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbENReXlLQUVSX3NvczBuRF85WGMxMTRoV2cwaFNDOGNtUjZDeUtqQjF3UktEVnBuOU5nY1A5M0hUWkpUVTRzTTlHUjlYQmN1eHRUbDV6WDZwNkVCTkduaE84M3dlcFNoNk4xc3haTjdDZ1g4NGRfcy1VRFVOVDlxcmpzUmcyX1F3QTRxT0tqVWROMUdtMlFtNV9mRnNOTS1iS0VhQk1VeEE?oc=5" target="_blank" rel="noopener">Oracle Cuts 546 Cloud Engineers While Spending $95 Billion on AI Data Centers - gadgetreview.com</a><span class="when">2026-09-23</span></li>
+      <li><a href="https://news.google.com/rss/articles/CBMi3wFBVV95cUxOSl9wQ0p4aW10MzNmbGlqbFl1bDNxT2hKRTJxYTgyODVqLWJEMUJ5LUY2LXdSZnhSYXZIVHZwYVh3cHBYeXJvWHVYN2wwOTV1Wm1LMjltanBVbDRXTDY5Ukl6LTgxbThJYS1renY2SWVXQjlVaTN5SERRNHlVaUNfOGhiZ3RLeTNYLW0wUmxlUFU0cTVzelBzRVJrcEpsa21pRjJ5NTFVQ0xrOEw4YWNjT3RPRWZGWnpqZWRWdU9HWUNwWDZWM0Q5UTFGQjBTeUM4NWVrcTlkNklxRkRJRGw0?oc=5" target="_blank" rel="noopener">Silver Is Beating Gold Despite a Stronger Dollar—Is AI Capex the Missing Driver? - Action Forex</a><span class="when">2026-09-23</span></li>
+      <li><a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxNWXVTSVQyOXJOeEJBck5SWTNiYlNPZjR1cFhha2VyUUlYNFhjS2FrZjI3MTh4alczOUhQcE9QbHhqNmxPb2FXNXhMY2pMYUZ1Q013SzFMOWJUYWE0UzBhTUFuOEh1b1ZpcUtjcHJ0aW9mdUJJZU9TTzBPZTFBb3JWTXduazBoWjJDMTNUN0hORF9JbU9HeWdaQmE4MTQ1NnI4?oc=5" target="_blank" rel="noopener">Capex to Consume Nearly All Hyperscaler Operating Cash Flow in 2026 - Broadband Breakfast</a><span class="when">2026-09-21</span></li>
+      <li><a href="https://news.google.com/rss/articles/CBMidkFVX3lxTE9BYnVsVWoteUs1RmxPeFp6d1ZMUnBvQUNPZ24tVTVkM1JUNXRvdE5NbHE1OC1kQmFBNW5KanVpVnJXNktSX2IyUHNZYUl5cEhlVTYzOXh0bFZDcmstc204TEQ5M1pQZy1CaF9wTUY2UlRYdElma0E?oc=5" target="_blank" rel="noopener">Blackstone President Dismisses AI Bubble Concerns: Trillion-Dollar Capex Is Backed by Real Returns - finance.biggo.com</a><span class="when">2026-09-22</span></li>
+    </ul></div>
+  </div>
+</div>
+
+<footer>
+Every figure is measured and every headline links to its source. The commentary
+is threshold logic over real values, not model output. Indicators marked
+model_inference are proxies — a CCC credit spread is not a private data-centre
+lending rate, it is the closest observable tier.<br>
+Sources: FRED (ICE BofA indices, producer price indices), SEC EDGAR XBRL,
+Yahoo Finance, Google News.
+</footer>
+
+</div></body></html>
